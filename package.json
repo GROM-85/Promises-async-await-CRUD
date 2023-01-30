@@ -1,0 +1,31 @@
+{
+  "name": "parcel-project-template",
+  "version": "2.0.0",
+  "homepage": "https://goitacademy.github.io/CRUD examples",
+  "scripts": {
+    "start": "parcel src/*.html",
+    "build": "parcel build src/*.html --public-url /CRUD examples/",
+    "server": "json-server --watch db.json -p 8081 -d 350"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/goitacademy/CRUD examples.git"
+  },
+  "keywords": [],
+  "author": "Alexander Repeta <alexander.repeta@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/goitacademy/CRUD examples/issues"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.6.0",
+    "axios": "^1.2.6",
+    "json-server": "^0.17.1",
+    "modern-normalize": "^1.1.0",
+    "notiflix": "^3.2.6",
+    "parcel": "^2.6.0",
+    "parcel-reporter-clean-dist": "^1.0.4",
+    "posthtml-include": "^1.7.4"
+  },
+  "browserslist": "> 0.5%, last 2 versions, not dead"
+}
