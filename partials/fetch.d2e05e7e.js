@@ -1,0 +1,2 @@
+const BASE_URL="https://api.github.com/users/",userLogins=["luxplanjay","SofiaProtsiv","qweeqer","Maxwelllife","xWinst","AleksZhov","gsmoff"];function getUsers(e){let s=e.map((e=>fetch(BASE_URL+e).then((e=>{if(!e.ok)throw new Error("User doesnt exist");return console.log(e),e.json()}))));return Promise.allSettled(s)}getUsers(userLogins).then(console.log).catch((e=>concole.log(e.message)));
+//# sourceMappingURL=fetch.d2e05e7e.js.map
