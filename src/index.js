@@ -1,4 +1,4 @@
-// import "./js/r_GET" ;
-// import "./js/c_POST";
-// import "./js/u_UPDATE";
-// import "./js/d_DELETE";
+// import "./js/CRUD/GET" ;
+// import "./js/CRUD/POST";
+// import "./js/CRUD/UPDATE";
+// import "./js/CRUD/DELETE";

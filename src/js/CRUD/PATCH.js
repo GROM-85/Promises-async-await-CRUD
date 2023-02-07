@@ -19,8 +19,7 @@ const updateEmployee = ({id,body}) =>{
 
 let newEmployee= {
     id:6,
-    body:
-    {
+    body:{
     "name": "Ivan Gordiienko",
     "title": "Back End Team Lead"
 }

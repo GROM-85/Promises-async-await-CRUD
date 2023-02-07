@@ -1,22 +1,12 @@
 {
   "employees": [
     {
-      "name": "Roman",
-      "email": "gordiienkoroman85@gmail.com",
-      "password": "asdfsdf",
-      "id": 1
+      "id": "1861812a15fuyiboklkd3h",
+      "title": "evening"
     },
     {
-      "name": "Ivan",
-      "email": "Ivan@gord.com",
-      "password": "12345",
-      "id": 2
-    },
-    {
-      "name": "Roan",
-      "email": "gordiienkoroman85@gmail.com",
-      "password": "asdfsdf",
-      "id": 3
+      "id": "186181ce2757az5je164j6",
+      "title": "lunch"
     }
   ]
 }
